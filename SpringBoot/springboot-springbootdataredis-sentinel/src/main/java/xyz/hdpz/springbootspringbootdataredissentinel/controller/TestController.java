@@ -9,6 +9,9 @@ import xyz.hdpz.springbootspringbootdataredissentinel.utils.RedisUtil;
 import java.util.Date;
 
 
+/**
+ * 测试Controller
+ */
 @RestController
 @Slf4j
 public class TestController {

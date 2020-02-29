@@ -7,10 +7,16 @@ import org.springframework.web.bind.annotation.RestController;
 import xyz.hdpz.springbootspringbootdataredisredis.utils.RedisUtil;
 
 
+/**
+ * 测试Controller
+ */
 @RestController
 @Slf4j
 public class TestController {
 
+    /**
+     * 这里直接引入工具类就可以了
+     */
     @Autowired
     RedisUtil redisUtil;
 

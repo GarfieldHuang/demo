@@ -1,4 +1,4 @@
-package xyz.hdpz.springbootspringdataredissentinel.config;
+package xyz.hdpz.springbootspringbootdataredissentinel.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

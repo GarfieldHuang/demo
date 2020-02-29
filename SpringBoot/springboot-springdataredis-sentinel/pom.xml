@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>xyz.hdpz</groupId>
-    <artifactId>springboot-springdataredis-sentinel</artifactId>
+    <artifactId>springboot-springbootdataredis-sentinel</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-springdataredis-sentinel</name>
+    <name>springboot-springbootdataredis-sentinel</name>
     <description>设置sentinel模式</description>
 
     <properties>

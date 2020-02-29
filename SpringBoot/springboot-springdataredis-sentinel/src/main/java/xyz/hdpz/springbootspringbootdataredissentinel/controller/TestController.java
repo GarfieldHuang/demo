@@ -1,10 +1,10 @@
-package xyz.hdpz.springbootspringdataredissentinel.controller;
+package xyz.hdpz.springbootspringbootdataredissentinel.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import xyz.hdpz.springbootspringdataredissentinel.utils.RedisUtil;
+import xyz.hdpz.springbootspringbootdataredissentinel.utils.RedisUtil;
 
 import java.util.Date;
 

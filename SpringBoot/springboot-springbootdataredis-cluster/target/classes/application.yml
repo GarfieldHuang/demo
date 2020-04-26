@@ -1,0 +1,23 @@
+#redis参数配置
+spring:
+  redis:
+    password: 123456
+    database: 0
+    pool:
+      jedis:
+        max-active: 300
+        max-wait: 500
+        max-idle: 64
+        min-idle: 8
+    cluster:
+      nodes:
+        - 192.168.165.200:8001
+        - 192.168.165.200:8002
+        - 192.168.165.200:8003
+        - 192.168.165.200:8004
+        - 192.168.165.200:8005
+        - 192.168.165.200:8006
+      max-redirects: 6
+
+
+
